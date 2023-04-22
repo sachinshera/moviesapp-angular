@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SideheaderComponent } from './sideheader.component';
+import { UserWidgetComponent } from './user-widget.component';
 
-describe('SideheaderComponent', () => {
-  let component: SideheaderComponent;
-  let fixture: ComponentFixture<SideheaderComponent>;
+describe('UserWidgetComponent', () => {
+  let component: UserWidgetComponent;
+  let fixture: ComponentFixture<UserWidgetComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SideheaderComponent ]
+      declarations: [ UserWidgetComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SideheaderComponent);
+    fixture = TestBed.createComponent(UserWidgetComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

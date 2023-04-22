@@ -7,7 +7,6 @@ import { HomepageComponent } from './home/homepage/homepage.component';
 import { MoviesComponent } from './home/movies/movies.component';
 import { SeriesComponent } from './home/series/series.component';
 import { NavbarComponent } from './includes/home/navbar/navbar.component';
-import { SideheaderComponent } from './home/navbar/sideheader/sideheader.component';
 import { BacktotopComponent } from './others/backtotop/backtotop.component';
 import { FooterComponent } from './includes/home/navbar/footer/footer.component';
 import { HomepagebannerComponent } from './home/homepage/homepagebanner/homepagebanner.component';
@@ -19,6 +18,14 @@ import { SeriesFeaturesComponent } from './home/homepage/series-features/series-
 import { GenresComponent } from './home/homepage/genres/genres.component';
 import { RecomendsComponent } from './home/homepage/recomends/recomends.component';
 import { ToppicksComponent } from './home/homepage/toppicks/toppicks.component';
+import { DetailsComponent } from './home/series/details/details.component';
+import { SmallSliderComponent } from './home/series/small-slider/small-slider.component';
+import { SideheaderComponent } from './includes/home/navbar/sideheader/sideheader.component';
+import { MovieDetailsComponent } from './home/movies/movie-details/movie-details.component';
+import { MoviePlayerComponent } from './home/movies/movie-details/movie-player/movie-player.component';
+import { SeriesPlayerComponent } from './home/series/details/series-player/series-player.component';
+import { MenusComponent } from './includes/home/navbar/menus/menus.component';
+import { UserWidgetComponent } from './includes/home/navbar/user-widget/user-widget.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +34,6 @@ import { ToppicksComponent } from './home/homepage/toppicks/toppicks.component';
     MoviesComponent,
     SeriesComponent,
     NavbarComponent,
-    SideheaderComponent,
     BacktotopComponent,
     FooterComponent,
     HomepagebannerComponent,
@@ -38,13 +44,18 @@ import { ToppicksComponent } from './home/homepage/toppicks/toppicks.component';
     SeriesFeaturesComponent,
     GenresComponent,
     RecomendsComponent,
-    ToppicksComponent
+    ToppicksComponent,
+    DetailsComponent,
+    SmallSliderComponent,
+    SideheaderComponent,
+    MovieDetailsComponent,
+    MoviePlayerComponent,
+    SeriesPlayerComponent,
+    MenusComponent,
+    UserWidgetComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

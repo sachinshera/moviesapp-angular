@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-sideheader',
+  selector: 'app-sideheader2',
   templateUrl: './sideheader.component.html',
-  styleUrls: ['./sideheader.component.css']
+  styleUrls: ['./sideheader.component.css'],
 })
-export class SideheaderComponent {
-
-}
+export class SideheaderComponent {}
